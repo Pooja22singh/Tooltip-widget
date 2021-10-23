@@ -1,0 +1,23 @@
+tooltip {
+  position: fixed;
+  background: #fff;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+tooltip::after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+  border-width: 5px;
+  left: 40%;
+  bottom: 100%;
+}
+
+a {
+  padding: 10px;
+}
